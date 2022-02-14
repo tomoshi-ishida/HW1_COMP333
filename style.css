@@ -25,7 +25,7 @@ header {
 
 .logozone {
   position: relative;
-  width: 10%;
+  width: 10vw;
 }
 
 .logo {
@@ -39,7 +39,7 @@ header {
 
 .navigation {
   position: relative;
-  width: 90%;
+  width: 90vw;
 }
 
 nav {
@@ -51,10 +51,11 @@ nav ul {
   list-style: none;
   display: flex;
   justify-content: center;
+  padding-left: 10vw;
 }
 
 nav ul li {
-  width: 15%;
+  width: 15vw;
   text-align: center;
   height: 70px;
   line-height: 70px;
@@ -64,6 +65,7 @@ nav ul li a {
   text-decoration: none;
   color: #fff;
   font-weight: bold;
+  font-size: 1vw;
 }
 
 hr {
@@ -77,19 +79,25 @@ hr {
 }
 
 .mainmessage {
-  padding-top: 100px;
+  padding-top: 20vh;
+  padding-left: 4vh;
+  padding-right: 4vh;
 }
 
 .submessage {
   padding-top: 40px;
+  padding-left: 4vh;
+  padding-right: 4vh;
 }
 .signupmessage {
   padding-top: 50px;
+  padding-left: 4vh;
+  padding-right: 4vh;
 }
 
 .form {
-  padding-top: 10px;
-  padding-bottom: 250px;
+  padding-top: 5vh;
+  padding-bottom: 30vh;
 }
 
 .form ul {
@@ -106,30 +114,47 @@ hr {
   border-color: gray;
   border-width: 2px;
   padding-left: 5px;
-  width: 400px;
+  width: 30vw;
   height: 40px;
   color: gray;
-  font-size: 20px;
+  font-size: 1vw;
 }
 
 .submit {
   border-color: gray;
   border-width: 1px;
-  width: 200px;
+  width: 15vw;
   height: 46px;
   background: red;
   color: white;
-  font-size: 25px;
+  font-size: 2vw;
 }
 
-.feature1 div {
+.message1 {
+  padding-top: 20px;
+  padding-left: 4vh;
+  padding-right: 4vh;
   color: white;
   text-align: center;
 }
 
-.img1 {
+.submessage1 {
+  padding-top: 100px;
+  padding-left: 4vh;
+  padding-right: 4vh;
+  color: white;
+  text-align: center;
+}
+
+.divimg1 {
+  padding-top: 20px;
   display: flex;
   justify-content: center;
+}
+
+.img1 {
+  width: 70vw;
+  height: auto;
 }
 
 /*
