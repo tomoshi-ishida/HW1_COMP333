@@ -1,59 +1,135 @@
-/*
-    COMP 333: Software Engineering
-    Sebastian Zimmeck (szimmeck@wesleyan.edu)
-*/
-
-/*
-    It is a good idea to include all styles in a separate Style Sheet such as
-    this one.
-
-    Start styling with the general elements of your page, e.g., body style,
-    pargraph style, ... . Then, you can modify those styles for individual
-    instances using class tags, id tags, ... .
-*/
-
-/*
-    You can import a font from Google at https://fonts.google.com/
-*/
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC&display=swap');
 
-/*
-    The imported font should be applied to all body text.
-*/
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
 body {
     font-family: 'Noto Sans SC', sans-serif;
 }
 
-/*
-    All text in paragraphs should be blue.
-*/
 p {
     color:blue;
 }
 
-/*
-    The background of all divs should be pink.
- */
 div {
-    background-color: hotpink;
+    background-color: black;
 }
 
-#navigation {
-  background-color: gray;
+header {
+  display: flex;
+  background-color: black;
+  height: 70px;
 }
 
-#navigation ul li{
-  display: inline;
+.logozone {
+  position: relative;
+  width: 10%;
 }
 
-/*
-    There is one white-div in our html_sample.html, which should have white
-    font.
+.logo {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);/* 要素の大きさの半分の距離を左、上方向に移動する */
+  -webkit-transform: translateY(-50%) translateX(-50%);
+}
 
-    You can refer in Style Sheets to ids using #.
-*/
-#white-div {
-    color: white;
+.navigation {
+  position: relative;
+  width: 90%;
+}
+
+nav {
+  height: 70px;
+  background-color: black;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  width: 15%;
+  text-align: center;
+  height: 70px;
+  line-height: 70px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+hr {
+  border-color: gray;
+  border-width: 6px 0px 0px 0px;
+}
+
+.main div{
+  text-align: center;
+  color: white;
+}
+
+.mainmessage {
+  padding-top: 100px;
+}
+
+.submessage {
+  padding-top: 40px;
+}
+.signupmessage {
+  padding-top: 50px;
+}
+
+.form {
+  padding-top: 10px;
+  padding-bottom: 250px;
+}
+
+.form ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.form ul li {
+  margin-right: 1px;
+}
+
+.email {
+  border-color: gray;
+  border-width: 2px;
+  padding-left: 5px;
+  width: 400px;
+  height: 40px;
+  color: gray;
+  font-size: 20px;
+}
+
+.submit {
+  border-color: gray;
+  border-width: 1px;
+  width: 200px;
+  height: 46px;
+  background: red;
+  color: white;
+  font-size: 25px;
+}
+
+.feature1 div {
+  color: white;
+  text-align: center;
+}
+
+.img1 {
+  display: flex;
+  justify-content: center;
 }
 
 /*
