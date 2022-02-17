@@ -78,6 +78,7 @@ hr {
 .main div{
   text-align: center;
   color: white;
+  background-color: black;
 }
 
 .mainmessage {
@@ -132,10 +133,13 @@ hr {
   font-size: 2vw;
 }
 
-.feature1 {
+.features {
   background-color: black;
 }
 
+
+
+/* feature1 */
 .message1 {
   padding-top: 40px;
   padding-left: 4vh;
@@ -164,10 +168,8 @@ hr {
   height: 70vh;
 }
 
-.feature2 {
-  background-color: black;
-}
 
+/* feature2 */
 .message2 {
   padding-top: 40px;
   padding-left: 4vh;
@@ -197,126 +199,47 @@ hr {
 }
 
 
-
-
-
-
-
-/*
-    You can refer in Style Sheets to classes using the dot .
-*/
-.padding-color-class {
-    /*
-        Instead of color names you can also use hexdecimal values. The lower the
-        number, the darker.
-    */
-    background-color: #000000;
-    /*
-        You can also give colors in RGB values (0 to 255). If you are expecting
-        older browsers using your site, refrain from using RGB formatting.
-    */
-    color: rgb(100, 168, 200);
+/* Contact us (iframe) */
+.message3 {
+  padding-top: 40px;
+  padding-left: 4vh;
+  padding-right: 4vh;
+  color: white;
+  text-align: center;
+  font-size: 4vw;
 }
 
-.background-image-class {
-    background-image: url(https://placeimg.com/400/200/any); background-repeat: no-repeat;
-    color: white;
+.submessage3 {
+  padding-top: 10vh;
+  padding-left: 4vh;
+  padding-right: 4vh;
+  padding-bottom: 5vh;
+  color: white;
+  text-align: center;
+  font-size: 2vw;
 }
 
-.css-box-model-class {
-    /*
-        Demonstrates the CSS Box Model
-    */
-    border-width: 2px;
-    /*
-        In order to see the border, you will need a border style.
-     */
-    border-style: solid;
-    /*
-        You can add a margin to all four borders. If there is only one value,
-        all borders are affected You can specify in clockwise order:
-        top, right, bottom, left.
-    */
-    margin: 10px 5px 15px 25px;
-    /*
-        While margins are at the outside of the border, paddings are at the
-        inside. You can specify a single value for all four margins, but you
-        could also specify the padding individually the as for the margins.
-    */
-    padding: 50px;
+.iframe {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 15vh;
 }
 
-/*
-    Links can be styled with CSS as well. There are four states:
-    link (original state), visited, hover, active (on click).
-    For example, on hover, change the link color to green. Also, hover can be
-    applied to divs.
-*/
-a:hover {
-    color:green;
-}
-
-/*
-    For your custom navbar, you can specify the unorderd list style.
-*/
-.navbar ul {
-    /*
-        Remove bullet points.
-    */
-    list-style: none;
-    width: 500px;
-    margin: 0 auto;
-    /*
-        No padding.
-    */
-    padding: 0;
-    /*
-        For navbars use background color that stands out.
-    */
-    background-color: black;
-    text-align: center;
-}
-
-/*
-    Style individual list items.
-*/
-.navbar li {
-    width: 150 px;
-    background-color: #000;
-    border: 1px solid red;
-    /*
-        Show the navbar elements next to each other instead of on top of each
-        other.
-    */
-    padding: 10px;
-    display: inline-block;
-    line-height: 40px;
-}
-
-/*
-    Style links in navbar.
-*/
-.navbar a {
-    color:#fff;
-    text-decoration: none;
-}
-
-table, td {
-    border: 1px solid gray;
-}
-
-input {
-    /*
-        Show different input on top of each other instead of next to each other.
-    */
-    display: block;
-}
-
-/*
-    Style iframes.
-*/
 iframe {
-    width:100%;
-    height:100%;
+    width:80%;
+    height:50vh;
     border: dotted;
+    border-color: gray;
+    border-width: medium;
+}
+
+footer {
+  background-color: black;
+  height: 10vh;
+}
+
+p {
+  padding-left: 1vw;
+  padding-top: 1vh;
+  color: white;
 }
