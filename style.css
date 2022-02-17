@@ -33,15 +33,11 @@ header {
   height: 70px;
   width: auto;
   position: absolute;
-  /* top: 50%;
-  left: 50%;
-  transform: translateY(-50%) translateX(-50%);
-  -webkit-transform: translateY(-50%) translateX(-50%); */
 }
 
 .navigation {
   position: relative;
-  width: 90vw;
+  width: 80vw;
 }
 
 nav {
@@ -141,7 +137,7 @@ hr {
 }
 
 .message1 {
-  padding-top: 20px;
+  padding-top: 40px;
   padding-left: 4vh;
   padding-right: 4vh;
   color: white;
@@ -149,7 +145,7 @@ hr {
 }
 
 .submessage1 {
-  padding-top: 100px;
+  padding-top: 10vh;
   padding-left: 4vh;
   padding-right: 4vh;
   color: white;
@@ -157,19 +153,54 @@ hr {
 }
 
 .divimg1 {
-  padding-top: 20px;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
   display: flex;
   justify-content: center;
 }
 
 .img1 {
   width: 70vw;
-  height: auto;
+  height: 70vh;
 }
 
 .feature2 {
   background-color: black;
 }
+
+.message2 {
+  padding-top: 40px;
+  padding-left: 4vh;
+  padding-right: 4vh;
+  color: white;
+  text-align: center;
+}
+
+.submessage2 {
+  padding-top: 10vh;
+  padding-left: 4vh;
+  padding-right: 4vh;
+  color: white;
+  text-align: center;
+}
+
+.divimg2 {
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  display: flex;
+  justify-content: center;
+}
+
+.img2 {
+  width: 50vw;
+  height: 70vh;
+}
+
+
+
+
+
+
 
 /*
     You can refer in Style Sheets to classes using the dot .
