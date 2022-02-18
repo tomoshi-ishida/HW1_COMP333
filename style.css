@@ -14,14 +14,6 @@ body {
     font-family: 'Noto Sans SC', sans-serif;
 }
 
-p {
-    color:blue;
-}
-
-/* div {
-    background-color: black;
-} */
-
 header {
   display: flex;
   background-color: black;
@@ -77,13 +69,13 @@ hr {
 }
 
 .main {
-  background-image: url(./image/background.jpg);
+  background-image: url(./background.jpg);
 }
 
 .main div{
   text-align: center;
   color: white;
-  background-color: black;
+  /* background-color: black; */
 }
 
 .mainmessage {
